@@ -1,0 +1,62 @@
+### --- PYTHON CORE --- ###
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+### --- VIRTUAL ENVIRONMENTS --- ###
+# Ignora pastas de ambientes virtuais (venv, .venv, env, etc)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+### --- JUPYTER NOTEBOOK --- ###
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Se quiser ignorar os resultados das células (opcional)
+# .ipynb_checkpoints/
+
+### --- DATA & MODELS (CRÍTICO PARA ML) --- ###
+# Ignora datasets pesados que devem ficar apenas localmente
+*.csv
+*.json
+*.xlsx
+*.parquet
+*.zip
+*.gz
+
+# Ignora modelos treinados (arquivos pesados de pickle ou joblib)
+*.pkl
+*.joblib
+*.model
+*.h5
+
+### --- CONFIG & SECRETS --- ###
+# Nunca suba senhas ou chaves de API (AWS, Bancos de Dados)
+.env
+.flaskenv
+secrets.json
+
+### --- IDE & SYSTEM --- ###
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
