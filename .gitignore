@@ -1,3 +1,4 @@
+.env
 ### --- PYTHON CORE --- ###
 __pycache__/
 *.py[cod]
