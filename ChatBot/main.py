@@ -5,3 +5,5 @@ import streamlit as st
 
 #Markdown
 st.write("## Chatbot com AI")
+
+text_user = st.chat_input("Digite sua mensagem")
